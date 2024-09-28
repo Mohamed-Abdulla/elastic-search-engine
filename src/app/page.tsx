@@ -19,6 +19,7 @@ export default function Home() {
         defaultOptions
         isClearable={true}
         placeholder="Start typing a book name..."
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         onChange={async (newValue: any) => {
           console.log(newValue);
           if (!newValue) {
